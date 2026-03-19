@@ -63,7 +63,6 @@ defineOgImageComponent('Nuxt', {
 
 <template>
   <section class="text-white max-w-7xl px-6 mx-auto">
-
     <!-- Header -->
     <div class="text-center py-16">
       <span class="text-xs font-semibold tracking-widest uppercase text-primary-400 mb-4 block">
@@ -108,10 +107,9 @@ defineOgImageComponent('Nuxt', {
           <UIcon name="i-heroicons-arrow-top-right-on-square" class="text-sm" />
         </div>
 
-        <!-- Subtle glow on hover -->
+        <!-- Glow effect -->
         <div class="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none ring-1 ring-primary-500/20" />
       </a>
     </div>
-
   </section>
 </template>
